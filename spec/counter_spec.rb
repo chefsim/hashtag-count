@@ -9,7 +9,7 @@ describe HashtagCount::Counter do
   end
 
   it "should have a counter for each hour" do
-    23.times do |hour|
+    24.times do |hour|
       expect(@counter.hours).to include(hour)
     end
   end
