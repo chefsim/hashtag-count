@@ -6,7 +6,7 @@ module HashtagCount
 
     def initialize
       @hours = Hash.new
-      23.times do |n|
+      24.times do |n|
         @hours[n] = 0
       end
     end
